@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<title>Mooklin</title>
+		<meta charset="utf-8">
+		<meta name="author" content="Pedro Henrique Leal de Carvalho" >
+		<meta name="keywords" content="mooklin, doces, artesanais, agronegocio, barato, doces baratos, empresas novas">
+		<meta name="description" content="Bem-vindo a Mooklin! Seu site número 1 de vendas de doces artesanais.">
+		<link rel="stylesheet" type="text/css" href="index.css">
+	</head>
+	<body>
+		<nav>
+			<a class="nav-a" href="#">HOME</a>&ensp;
+			<a class="nav-a" href="#sobre">SOBRE</a>&ensp;
+			<a class="nav-a" href="#produtos">PRODUTOS</a>&ensp;
+			<a class="nav-a" href="#encomenda">ENCOMENDAS</a>&emsp;&ensp;
+		</nav>
+		<header>
+			<img src="imagens/Banner_no_photoshop/banner2.png">
+		</header>
+		<section>
+			<h1 id="sobre">Bem-vindo a Mooklin!</h1>
+			<p><span class="span-1">Seu principal site de venda de doces artesanais desde 2021!</span></br>Somos uma empresa moderna, focada nas causas sociais e nos mais diversos impactos ambientais, reduzindo, assim, <span class="span-2">quaisquer impactos que nossas indústrias podem causar.</span> Trabalhamos, também, com fontes energéticas 100% renováveis, com a criação extensiva de nossos animais e, é claro, com muito amor! Nossa indústria é 100% focada na produção artesanal de doces, vindos diretamente de nossas fazendas. Atualmente, empregamos mais de 200 funcionários, frota essa que só tende a aumentar. Venha fazer parte dessa família! </p>
+		</section>
+		<article>
+			<h2 id="produtos">Nossos produtos</h2>
+			<p>Trabalhamos com os mais distintos doces artesanais, cada doce vem em um pote,contendo 300 gramas de cada um, sendo os principais deles:</p>
+			<div class="container">
+				<div class="card">
+					<img src="imagens/Banner_no_photoshop/Doces/DOCE1.png" alt="doce de morango">
+					<div class="conteudo-card">
+						<p class="esquerda">Doce de morango</p>
+						<p class="direita">R$8,00</p>
+					</div>
+				</div>
+				<div class="card">
+					<img src="imagens/Banner_no_photoshop/Doces/DOCE2.png" alt="doce de mamão">
+					<div class="conteudo-card">
+						<p class="esquerda">Doce de mamão</p>
+						<p class="direita">R$9,90</p>
+					</div>
+				</div>
+				<div class="card">
+					<img src="imagens/Banner_no_photoshop/Doces/DOCE3.png" alt="doce de laranja">
+					<div class="conteudo-card">
+						<p class="esquerda">Doce de laranja</p>
+						<p class="direita">R$9,90</p>
+					</div>
+				</div>
+				<div class="card">
+					<img src="imagens/Banner_no_photoshop/Doces/DOCE4.png" alt="doce de goiaba">
+					<div class="conteudo-card">
+						<p class="esquerda">Doce de goiaba</p>
+						<p class="direita">R$7,00</p>
+					</div>
+				</div>
+			</div>
+			<p>E aí, já sabe qual dessas delícias quer levar para a sua casa? Trabalhamos com encomendas para Brasília e todo o entorno!</p>
+		</article>
+		<section>
+			<h2 id="encomenda">Faça a sua encomenda!</h2>
+			<p>Para toda vontade, há uma distribuidora Mooklin pertinha de você!</p>
+			<form name="" method="" action="">
+				<label for="nome">Digite seu nome:</label><br>
+				<input id="nome" type="name" name="nome" placeholder="ex: Pedro Henrique" size="90" required=""><br>
+				<label for="email">Seu e-mail:</label><br>
+				<input id="email" type="email" name="email" placeholder="ex: nome@gmail.com" size="90"><br>
+				<label for="nossosprodutos">Escolha o seu produto:</label><br>
+				<select id="nossosprodutos" name="nossosprodutos">
+					<option value="morango">Doce de morango</option>
+					<option value="mamao">Doce de mamão</option>
+					<option value="laranja">Doce de laranja</option>
+					<option value="goiaba">Doce de goiaba</option>
+				</select><br>
+				<label for="quantidade">Quantidade:</label><br>
+				<input id="valor" type="number" name="quantia" min="1" max="999" step="1"><br>
+				<fieldset>
+					<legend>Onde deseja retirar?</legend>
+						<input id="casa" type="radio" name="retirada"><label for="casa">Delivery</label><br>
+						<input id="local" type="radio" name="retirada"><label for="casa">Retirada no local</label><br>
+				</fieldset>
+				<label for="msg">Comentários:</label><br>
+			    <textarea id="msg" cols="90" rows="4" placeholder="Caso tenha alguma observação sobre o pedido, escreva-a aqui:"></textarea><br>
+			    <div class="btn-sub-rst">
+					<input type="submit" name="botao_enviar" value="Encomendar">
+					<input type="reset" name="botao_redefinir" value="Cancelar">
+				</div>
+			</form>
+		</section>
+		<footer>
+		<p>Desenvolvido por<a class="nav-a" href="http://instagram.com/pedro_lcarvalho" target="_blank"> Pedro Carvalho</a> - 2021</p>
+		</footer>
+	</body>
+</html>

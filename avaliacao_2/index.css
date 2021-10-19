@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:ital,wght@0,100;0,300;1,100&display=swap');
+/*
+Fontes: Bebas Neue, Roboto;
+*/
+
+*{margin: 0;, padding: 0;}
+
+/* Formatação do nav */
+
+nav{
+	padding: 20px;
+	background-color: black;
+	text-align: right;
+}
+
+nav a{
+	font: 1.3em 'Bebas Neue', cursive ;
+	text-decoration: none;
+	padding-right: 10px ;
+}
+
+.nav-a:link, .nav-a:visited{
+	color: #FFF;
+}
+
+.nav-a:hover, .nav-a:active{
+	color:#FAC50E; 
+
+}
+
+/* Fim da formatação do nav  */
+
+/* Início da formatação do header/img  */
+
+header, img{
+ 	width: 100%;
+	height: 500px;
+}
+
+/* Fim da formatação do header/img */
+
+/* Início da formatação do body/article */
+
+section{
+	background-color: #D2D5D6;
+	padding: 30px;
+}
+
+section h1, h2{
+	font: 2.5em 'Roboto', sans-serif;
+	font-weight: bold;
+	/*text-indent: 40px;*/
+	padding: 10px 0px;
+}
+
+section p{
+	font: 1.6em 'Roboto', sans-serif;
+	line-height: 1.3em;
+}
+
+.span-1{
+	line-height: 2em;
+}
+
+.span-2{
+	font-weight: bold;
+	padding: 0, 20px;
+}
+
+/* Fim da formatação do body/article  */
+
+/* Início da formatação do arcticle  */
+
+article{
+	background-color: #FBFEFF;
+	padding: 30px;
+}
+
+article h2{
+	font: 2.5em 'Roboto', sans-serif;
+	font-weight: bold;
+	/*text-indent: 40px;*/
+	padding: 10px 0px;
+}
+
+article p{
+	font: 1.6em 'Roboto', sans-serif;
+	line-height: 1.3em;
+}
+
+.container{
+	display: flex;
+	padding-bottom: 30px;
+}
+
+.card{
+	background-color: #FFFFFF;
+	margin: 10px;
+	width: 33.333%;
+	border-radius: 10px;
+	box-shadow: 0px 4px 8px #CCC;
+	transition: 0.3s;
+	padding-bottom: 20px;
+}
+
+.conteudo-card{
+	padding: 20px;
+}
+
+.esquerda{
+	float: left;
+}
+
+.direita{
+	float: right;
+}
+
+/* Fim da formatação do arcticle  */
+
+/* Formatação form  */
+
+form{
+	padding: 20px 0px;
+	width: 600px;
+	margin: auto;
+}
+
+input, select, textarea{
+	width: 100%;
+	height: 25px;
+	margin-bottom: 10px;
+	padding-left: 8px;
+	box-sizing: border-box;
+	border: 1px solid #C4C4C4;
+	font: 1rem 'Roboto', sans-serif;
+	color: #777;
+}
+
+.btn-sub-rst{
+	display: flex;
+}
+
+input[type="submit"], input[type="reset"]{
+	margin: 20px;
+	border-radius: 5px;
+	color: white;
+}
+
+input[type="submit"]{
+	background-color: blue;
+}
+
+input[type="reset"]{
+	background-color: red;
+}
+
+input[type="radio"], input[type="checkbox"]{
+	width: 15px;
+	height: 15px;
+	margin-left: 40px;
+}
+
+label, legend{
+	font: 1.2rem 'Roboto', sans-serif;
+	font-weight: bold;
+}
+
+fieldset{
+	border: 1px solid black;
+	margin-bottom: 10px;
+	padding: 10px;
+}
+
+textarea{
+	height: 80px;
+}
+
+/* Fim da formatação form */
+
+/*  Início da formatação do footer */
+
+footer{
+	padding: 20px;
+	background-color: black;
+	text-align: center;
+	font: 1.5em 'Bebas Neue', cursive ;
+	padding-right: 10px ;
+	color: white;
+}
+
+footer a{
+		text-decoration: none;
+}
+
+
+/*  Fim da formatação do footer */
