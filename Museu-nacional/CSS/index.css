@@ -1,0 +1,89 @@
+/* Fontes  */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap'); /* font-family: 'Open Sans Condensed', sans-serif;  */
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap'); /* font-family: 'Oswald', sans-serif;  */
+
+/* Formatações gerais  */
+*{
+	margin: 0;
+	padding: 0;
+}
+
+a{
+	text-decoration: none;
+}
+
+/* Início da formatação do header  */
+
+header{
+	width: 100%;
+	height: 200px;
+	background: rgb(44, 52, 48);
+	display: flex;
+	justify-content: center;
+	align-items: flex-start;
+	flex-wrap: nowrap;
+}
+
+ul{
+	list-style: none;
+}
+
+nav{
+	width: 100%;
+	min-width: 1000px;
+}
+
+.container-topo{
+	width: 90%;
+	height: 800px;
+
+}
+
+.container-topo h1{
+	font: 3em 'Open Sans Condensed', sans-serif;
+	text-transform: uppercase;
+	float: left;
+	color: white;
+}
+
+.container-topo span{
+	color: orange;
+}
+
+.ul-topo{
+	min-width: 50%;
+	float: right;
+	padding-top: 20px;
+}
+
+.li-topo{
+	padding: 20px;
+	float: right;
+}
+
+.li-topo a{
+	color: orange;
+	font: 1em 'Oswald', sans-serif;
+	letter-spacing: 2px;
+}
+
+.clear{
+	clear: both;
+}
+
+/* Formatado a seção do topo  */
+.imagens-topo{
+	margin-top: -80px;
+	display: flex;
+}
+
+.caixa1, .caixa2{
+	margin: 0 auto;
+	border: 1px solid red;
+}
+
+.container{
+	width: 90%;
+	height: 800px;
+	min-width: 1200px;
+}
