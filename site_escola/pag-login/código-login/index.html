@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta name="author" content="Pedro Henrique Leal de Carvalho, Marthos Morilha">
+		<meta name="description" content="Este é um site destinado para o login na instituição Montecarlo de ensino.">
+		<meta name="keywords" content="Montecarlo, login, programação, aluno, professor">
+		<meta charset="utf-8">
+		<title>Faça seu login - Montecarlo</title>
+		<link rel="stylesheet" type="text/css" href="index.css">
+	</head>
+	<body>
+		<script>
+			var opcao
+       		opcao = prompt("Olá! Você é aluno ou professor? Digite [1] para aluno ou [2] para professor","Digite sem os colchetes.")
+		</script>
+		<nav><a href="../../pag-principal/codigo-principal/index.html">Home</a></nav>
+		<section>
+			<div id="tamanho-div">
+				<img src="../formulario/logo.png">
+				<h2>Bem-vindo,
+					<script>
+						if (opcao == 1){
+							document.write("aluno.")
+						}
+						else if (opcao == 2){
+							document.write("professor.")
+						}
+						else{
+							document.write("visitante.")
+						}
+					</script>
+				</h2>
+				<form>
+					<input type="text" name="nome" placeholder="Digite seu nome">
+					<input type="password" name="senha" placeholder="Digite sua senha">
+					<div id="flex">
+						<a class="login" href="../../pag-aluno-prof/codigo-aluno/index.html">Login</a>
+						<a class="login" href="../../suporte-tecnico/suporte.html">Esqueceu sua senha?</a>
+						<!-- Este "Esqueceu a senha?" é apenas para fins de formatação visual, não leva a lugar algum. -->
+					</div>
+				</form>
+			</div>
+			<a href="../../suporte-tecnico/suporte.html"><img class="img-suporte" src="../position-fixed/suporte-tecnico.png"></a>
+		</section>
+		<footer><p>Desenvolvido por <a href="https://www.instagram.com/marthos_mfc/" target="_blank">Marthos Morilha</a> e <a href="http://instagram.com/pedro_lcarvalho" target="_blank">Pedro Carvalho</a></p></footer>
+	</body>
+</html>

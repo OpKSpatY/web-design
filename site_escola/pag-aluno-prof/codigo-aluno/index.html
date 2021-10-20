@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<script>
+	var tipo, opcao, erro
+	tipo = prompt("Só para confirmar, você é aluno [1] ou professor [2]?","Digite sem os colchetes.")
+		if (tipo==1){
+			opcao = "Aluno"
+		}
+		else if (tipo==2){
+			opcao = "Professor"
+		}
+		else{
+			while (tipo != 1 && tipo != 2){
+				tipo = prompt("Por favor, digite dentre as opções.\n[1] Aluno\n[2] Professor","Caso persista, o site não carregará.")
+			}
+		}
+</script>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Página de acompanhamento</title>
+	<link rel="stylesheet" type="text/css" href="index.css">
+</head>
+<body>
+	<script>
+		var nota1, nota2, nota3, media1, nome1;
+		if (tipo==1){
+			nome1 = prompt("Digite seu nome:");
+		}
+		else if (tipo==2){
+			nome1 = prompt("Digite o nome do aluno aqui: ")
+		}
+		nota1 = prompt("Digite a primeira nota");
+			while (nota1 < 0 || nota1 > 10){
+				nota1 = prompt("Por favor, digite um valor válido!","Entre 1 e 10")
+			}
+			nota1 = eval (nota1);
+			nota1 = parseFloat(nota1.toFixed(2));
+			nota2 = prompt("Digite a segunda nota");
+			while (nota2 < 0 || nota2 > 10){
+				nota2 = prompt("Por favor, digite um valor válido!","Entre 1 e 10")
+			}
+			nota2 = eval (nota2);
+			nota2 = parseFloat(nota2.toFixed(2));
+			nota3 = prompt("Digite a terceira nota");
+			while (nota3 < 0 || nota3 > 10){
+				nota3 = prompt("Por favor, digite um valor válido!","Entre 1 e 10")
+			}
+			nota3 = eval (nota3);
+			nota3 = parseFloat(nota3.toFixed(2));
+			media1 = (nota1 + nota2 + nota3)/3
+			media1 = parseFloat(media1.toFixed(2));
+	</script>
+		<nav>
+			<a class="nav-a" href="#">Olá, 
+				<script>
+					document.write(opcao)
+				</script>
+			</a>
+			<a href="../../suporte-tecnico/suporte.html">
+				<img class="img-div-flut" src="../position-fixed/suporte-tecnico.png">
+			</a>
+			<a class="float nav-a" href="../../suporte-tecnico/suporte.html" target="_blank">Perfil</a> 
+			<a  class="float nav-a" href="../../pag-principal/codigo-principal/index.html" target="_blank">Home</a> 
+		</nav>
+		<div id="tamanho-pag">
+			<aside>
+				<fieldset class="avisos">
+					<legend class="legend">Avisos</legend>
+					<p>
+						<script >
+							if (tipo==1){
+								document.write("Olá, aluno! Tenha em mente que as notas e a média lançada são referentes ao seu primeiro semestre do seu curso.\nTenha um ótimo dia! =)")
+							}
+							else if (tipo==2){
+								document.write("Olá, professor! Não se esqueça de lançar as notas dos alunos no que cerne ao primeiro semestre.\nTenha um ótimo dia! =)")
+							}	
+						</script>
+					</p>
+				</fieldset>
+		</aside>
+			<div class="section">
+				<fieldset id="novidades" class="novidades">
+					<legend class="legend">Novidades do campus</legend>
+					<div class="flex">
+						<div class="caixas">
+							<img class="cem-prct" src="../imagens-avulsas/mao.png">
+							<p>
+								<script>
+									if (tipo==1){
+									document.write("Pontos extras!")
+								}
+								else if (tipo==2){
+									document.write("Ferramenta Seether!")
+								}
+								</script>
+							</p>
+						</div>
+						<div class="caixas">
+							<img class="cem-prct" src="../imagens-avulsas/megafone.png">
+							<p>Nova IDE!</p>
+						</div>
+						<div class="caixas">
+							<img class="cem-prct" src="../imagens-avulsas/confiar-em.png">
+							<p>Suporte técnico!</p>
+						</div>
+						<div class="caixas">
+							<img class="cem-prct" src="../imagens-avulsas/equipe.png">
+							<p>
+								<script>
+									if (tipo==1){
+									document.write("Achados &amp; perdidos")
+								}
+								else if (tipo==2){
+									document.write("Cursos!")
+								}
+								</script>
+							</p>
+						</div>
+					</div>
+				</fieldset>
+				<fieldset class="novidades formulario">
+					<legend class="legend">Tabela das notas</legend>
+					<table class="primeira-tabela">
+						<tr>
+			              <td>
+			              	Nome             
+			              </td>
+			              <td>
+			              	Nota 1
+			              </td>
+			              <td>
+			              	Nota 2
+			              </td>
+			              <td>
+			              	Nota 3
+			              </td>
+			              <td>
+			              	Média
+			              </td>
+            			</tr>
+					</table>
+					<table class="segunda-tabela">
+						<tr>
+			              <td class="nome">
+			              	<script> document.write(nome1) </script>            
+			              </td>
+			              <td class="notas">
+			              	<script> document.write(nota1) </script>
+			              </td>
+			              <td class="notas">
+			              	<script> document.write(nota2) </script>
+			              </td>
+			              <td class="notas">
+			              	<script> document.write(nota3) </script>
+			              </td>
+			              <td class="notas">
+			              	<script> document.write(media1) </script>
+			              </td>
+            			</tr>
+					</table>
+				</fieldset>
+			</div>
+		</div>
+		<footer><p>Desenvolvido por <a href="https://www.instagram.com/marthos_mfc/" target="_blank">Marthos Morilha</a> e <a href="http://instagram.com/pedro_lcarvalho" target="_blank">Pedro Carvalho</a></p></footer>
+</body>
+</html>

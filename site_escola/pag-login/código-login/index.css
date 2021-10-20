@@ -1,0 +1,156 @@
+/* Fontes  */
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lobster&family=Oswald:wght@200&display=swap');
+
+/* Formatação geral  */
+*{
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+}
+
+body{
+	min-width: 1200px;
+}
+
+a{
+	width: 100%;
+}
+
+/* Formatação do NAV-topo  */
+
+nav{
+	line-height: 6em;
+	background: #282525;
+	width: 100%;
+}
+
+nav a{
+	text-decoration: none;
+	font: 2.5em'Lobster', cursive;
+	padding: 30px;
+	color: white;
+}
+
+/* Formatação do section */
+
+div img{
+	margin: 20px;
+}
+
+section{
+	margin: 0, auto;
+	height: 1200px;
+	background: #807b7b url(../background/fundo.png) no-repeat center;
+	background-size: 100%;
+	min-height: ;
+
+}
+
+div h2{
+	font: 2em'Oswald', sans-serif;
+	color: white;
+	margin-top: -10px;
+	margin-bottom: 20px;
+}
+
+#tamanho-div{
+	margin: 0 auto;
+	width: 440px;
+	height: 500px;
+	background-color: black;
+	border-radius: 20px;
+	text-align: center;
+	float: right;
+	margin-right: 200px;
+	margin-top: 200px;
+}
+
+
+/* Formatação do footer  */
+
+footer{
+	background-color: black;
+	clear: both;
+}
+
+footer p{
+	padding: 20px;
+	text-align: center;
+	font: 1.5em'Oswald', sans-serif;
+	color: white;
+}
+
+footer a:hover{
+	color: #C5CAE9;
+}
+
+footer a{
+	color: #FFF;
+}
+
+
+/* Formatação formulário  */
+
+input{
+	margin-bottom: 10px;
+	border-radius: 15px;
+	width: 80%;
+	padding: 10px;
+	text-align: center;
+	color: #807b7b;
+	font: 1.2em 'Bebas Neue', cursive;
+}
+
+input[type="password"]{
+	margin-bottom: 20px;
+}
+
+/*
+input[type="submit"], input[type="reset"]{
+	width: 50%;
+	margin: 10px;
+	color: #807b7b;
+	font: 1.2em 'Bebas Neue', cursive;
+}
+
+input[type="submit"]:hover, input[type="reset"]:hover{
+	box-shadow: 0px 2px 2px #CCC;
+	transition: 0.3s;
+
+}
+*/
+
+.login{
+	margin-bottom: 10px;
+	border-radius: 15px;
+	width: 40%;
+	padding: 10px;
+	text-align: center;
+	color: #807b7b;
+	font: 1.2em 'Bebas Neue', cursive;
+	background: white;
+	line-height: 2em;
+	margin: auto;
+}
+
+.login:hover{
+	box-shadow: 0px 2px 2px #CCC;
+	transition: 0.3s;
+}
+
+#flex{
+	width: 75%;
+	display: flex;
+	margin: auto;
+}
+
+
+/* Suporte técnico  */
+
+.img-suporte{
+	position: fixed;
+	bottom: 40px;
+	right: 80px;
+	width: 120px;
+	height: 120px;
+}

@@ -1,0 +1,224 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lobster&family=Oswald:wght@200&display=swap');
+*{margin: 0; 
+ padding: 0;
+ font: 1em'Lobster', cursive;
+ text-decoration: none;
+ }
+
+ /* Formatação do NAV  */
+
+body{
+	width: 100%;
+	height: 100%;
+	background-color: white;
+}
+
+nav{
+	line-height: 6em;
+	width: 100%;
+	background-color: black;
+}
+
+nav a{
+	padding-left: 20px;
+	font-size: 2em;
+}
+
+.nav-a:link, .nav-a:visited{
+	color: #FFF;
+}
+
+.nav-a:hover, .nav-a:active{
+	color:white;
+}
+
+.img-div-flut{
+	float: right;
+	width: 3.4%;
+	margin-top: 12px;
+	margin-right: 30px;
+}
+
+.float{
+	float: right;
+	padding: 22px;}
+
+/* Formatação do aside  */
+aside{
+	margin: 60px 20px;
+	height: 720px;
+	float: left;
+	width: 200px;
+}
+
+aside p{
+	font-size: 1.5em;
+}
+
+/* Formatando as divs  */
+
+.flex{
+	display: flex;
+}
+
+.caixas{
+	border-radius: 15px;
+	background-color: white;
+	width: 140px;
+	height: 140px;
+	margin: 0 auto;
+}
+
+.caixas p{
+	font-size: 1.5em;
+	text-align: center;
+	margin-top: -10px;
+	color: white;
+	text-shadow: 
+               -1px -1px 2px black, 
+               -1px 1px 2px black,      
+                1px -1px 2px black,    
+                1px 0px 2px black;
+}
+
+.cem-prct{
+	width: 80%;
+	height: 80%;
+	margin: 0 auto;
+	padding: 15px 15px;
+}
+
+.margin{
+	margin: 0 auto;
+}
+
+#tamanho-pag{
+	min-width: 1500px;
+	width: 100%;
+	height: 800px;
+}
+
+.section{
+	min-width: 1700px;
+}
+
+.avisos{
+	margin-top: -30px;
+	background-color: #867265;
+	height: 778px;
+}
+
+.avisos p{
+	font-size: 1.8em;
+	text-align: center;
+	color: white;
+	text-shadow: 
+               -1px -1px 2px black, 
+               -1px 1px 2px black,      
+                1px -1px 2px black,    
+                1px 0px 2px black;
+}
+
+.legend{
+	color: white;
+	text-align: center;
+	font-size: 3em;
+	text-shadow: 
+               -1px -1px 2px black, 
+               -1px 1px 2px black,      
+                1px -1px 2px black,    
+                1px 0px 2px black;
+}
+
+#novidades{
+	background-color: #2f3228;
+}
+
+.novidades{
+	align-items: center;
+	margin: 31px 40px;
+	float: left;
+	width: 80%;
+	height: 233px;
+}
+
+.formulario{
+	background-color: #476257;
+	width: 80%;
+	height: 453px;
+	float: left;
+	margin: 55px 40px;
+}
+
+fieldset{
+
+}
+
+/* Formatando a table  */
+table{
+	color: white;
+	padding: 10px;
+	margin: 20px;
+	display: block;
+	background-color: black;
+}
+
+table td{
+	width: 25%;
+}
+
+.primeira-tabela{
+	font-size: 3em;
+}
+
+.segunda-tabela{
+	font-size: 2em;
+	height: 250px;
+}
+
+.segunda-tabela td{
+	font-size: 1.5em;
+}
+
+.nome{
+	font-size: 1em;
+	word-wrap:break-word
+}
+
+.notas{
+	text-align: left;
+}
+
+
+/* Formatação do footer  */
+
+footer{
+	line-height: 6em;
+	clear: both;
+	background-color: black;
+	width: 100%;
+	padding: 20px 0px;
+
+}
+
+a{
+	text-decoration: none;
+}
+
+p a{
+	font-family: 'Oswald', sans-serif;
+}
+
+footer p{
+	color: white;
+	text-align: center;
+	font: 1.3em'Oswald', sans-serif;
+}
+
+footer a:hover{
+	color: #C5CAE9;
+}
+
+footer a{
+	color: #FFF;
+}
