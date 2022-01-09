@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Itim&family=Oswald&family=Staatliches&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    color: white;
+}
+
+a:link, a:active, a:visited{
+    color: white;
+}
+
+/* Formatação header*/
+
+.flex{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+header{
+    border-bottom: 0.3px solid grey;
+}
+
+#logo{
+    min-width: 100px;
+    min-height: 94px;
+    padding: 0 20px;
+}
+
+nav{
+    min-width: 400px;
+    text-shadow: 0px 5px 8px rgba(0, 0, 0, 0.25);
+    font-family: Bebas Neue;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    display: flex;
+    gap: 50px;
+}
+
+.nav-items:hover{
+    color: wheat;
+    transition: 0.3s;
+}
+
+/* Formatação body-article */
+body{
+    height: 937px;
+    background: linear-gradient(180deg, #925846 15.62%, #2C1F11 100%);
+} 
+
+#main-content{
+    min-width: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#main-name{
+    font-family: Itim;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 96px;
+}
+
+#main-name-content{
+    font-family: Staatliches;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+}
+
+#button-subs-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#main-name-button{
+    font-family: Bebas Neue;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    padding: 10px 5px;
+    width: 170px;
+    color: white;
+    background-color: #000000;
+    border-radius: 20px;
+    border: none;
+}
+
+.laptop{
+    width: 440px;
+    height: 468px;
+    object-fit: cover;
+}
+
+.main-div{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 100px 0px;
+}
+
+#subs{
+    margin-top: 20px;
+    font-family: Staatliches;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    border-bottom: 0.3px solid grey;
+}
+
+#whyus{
+    margin: 0 auto;
+}
+
+#whyus p{
+    font-family: Oswald;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+}
+
+#whyustitle{
+    display: flex;
+    padding: 0 40px;
+    justify-content: center;
+    font-family: Bebas Neue;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+
+}
+
+/* Footer */
+footer{
+    border-top: 0.3px solid grey;
+}
+
+.name-footer{
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    padding-top: 40px;
+    font-family: Staatliches;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+}
+
+.name-footer:hover{
+    transition: 0.2s;
+    text-shadow: 0px 5px 8px rgba(0, 0, 10, 2);
+}
+
+/* Media queries */
+
+@media screen and (min-width: 300px) and (max-width: 900px) {
+    .laptop{
+        display: none;
+    }
+}
