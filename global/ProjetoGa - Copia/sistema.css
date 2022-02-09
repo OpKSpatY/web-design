@@ -1,0 +1,21 @@
+body{
+    background: white
+    color: white;
+    text-align: center;
+}
+
+.table-bg{
+    background: #787878;
+    border-radius: 15px 15px 0 0;
+}
+
+.box-search{
+    display: flex;
+    justify-content: center;
+    gap: .1%;
+}
+
+#back_header{
+    background-color: #1F3755;
+    border: none;
+}
