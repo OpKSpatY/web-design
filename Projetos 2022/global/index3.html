@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="index3.css" >
+    <title>Cadastro de eventos</title>
+</head>
+    <body>
+        <div class="container">
+            <hr>
+                <header>
+                    <div id="header-photos">
+                        <img src="img3/seta.png" id="seta">
+                        <img src="img3/config.png" id="config">
+                    </div>
+                    <div id="header-text">
+                        <h1>
+                            Cadastro de novos eventos
+                        </h1>
+                    </div>
+                </header>
+                <main>
+                    <form>
+                        <label>Digite o nome do evento</label>
+                        <input type="text" id="event-name">
+                        <label for="invited" id="invited-list">Lista de convidados</label>
+                        <input type="text" id="invited">
+                        <label for="location" id="local">Localização do evento</label>
+                        <input type="text" id="location">
+                        <div class="multi-inputs">
+                            <div id="event-cost">
+                                <p id="cost">O evento será:</p>
+                                <div id="costs">
+                                    <input type="radio" class="cost" name="radio-cost" value="gratis" id="gratis">
+                                    <label for="gratis">Gratuito</label>
+                                    <input type="radio" class="cost" name="radio-cost" value="pago" id="pago">
+                                    <label for="pago">Pago</label>
+                                </div>
+                            </div>
+                            <div id="event-timedate">
+                                <div class="datetime">
+                                    <div id="data-first">
+                                        <label for="data" id="date">Data</label>
+                                        <input type="date">
+                                    </div>
+                                    <div class="time-last">
+                                        <label for="hour" id="time">Hora</label>
+                                        <input type="time">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <label for="payment" id="payment-label">Link para pagamento</label>
+                        <input type="text" id="payment"> <!-- Aqui entra o link para o pagamento gerado através de software específico -->
+                        <p id="payment-type" style="text-align: center;">Formas de pagamento</p>
+                        <div id="container">
+                            <div class="payments">
+                                <div id="payment-card">
+                                    <label for="cartao">Cartão</label>
+                                    <input type="radio" class="payment-types" name="payment-type" value="cartao" id="cartao">
+                                </div>
+                                <div id="payment-bol">
+                                    <label for="cartao">Boleto</label>
+                                    <input type="radio" class="payment-types" name="payment-type" value="boleto" id="boleto">
+                                </div>
+                                <div id="payment-pix">
+                                    <label for="cartao">Pix</label>
+                                    <input type="radio" class="payment-types" name="payment-type" value="pix" id="pix">
+                                </div>
+                                <div id="payment-other">
+                                    <label for="cartao">Outros</label>
+                                    <input type="radio" class="payment-types" name="payment-type" value="outro" id="outro">
+                                </div>
+                            </div>
+                        </div>
+                                           
+                    </form>
+                </main>
+                <footer>
+                    <p>global 2022 ™</p>
+                </footer>
+            <hr>
+        </div>
+    </body>
+</html>

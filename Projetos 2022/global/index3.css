@@ -1,0 +1,143 @@
+/* Formatações Gerais */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: white;
+    min-width: 300px;
+    padding: 50px;
+}
+
+label{
+    text-align: center;
+}
+
+input:focus{
+    outline: none;
+}
+
+
+/* Formatação do header */
+
+#header-photos{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#seta,#config{
+    display: inline-block;
+    cursor: pointer;
+}
+
+#seta{
+    margin-top: 3px;
+}
+
+#config{
+    margin-top: 4px
+}
+
+h1{
+    font-size: 18px;
+    text-align: center;
+    color: white;
+}
+
+#header-text{
+    padding: 5px 20px;
+    margin: 0 auto;
+    border-radius: 40px;
+    width: 250px;
+    background-color: #1F344E ;
+    flex-wrap: nowrap;
+}
+
+
+/* Formatação do principal */
+form{
+    display: flex;
+    flex-direction: column;
+    padding: 0px 40px;
+}
+
+#event-name,#invited,#location,#payment{
+    border: none;
+    background-color: #C4C4C4;
+    margin: 0 auto;
+    height: 40px;
+    padding: 0px 20px;
+    width: 90%;
+}
+
+.multi-inputs{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+/* Formatação custos-hora */
+
+#event-cost{
+    display: flex;
+    flex-direction: column;
+}
+
+#event-cost{
+    display: flex;
+    align-items: center;
+    line-height: 2em;
+}
+
+#cost{
+    margin-left: -30px;
+    text-align: left;
+}
+
+#event-timedate{
+    line-height: 2em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.datetime{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.payments{
+    max-width: 400px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.payments label{
+    display: block;
+}
+
+.payments div{
+    padding: 0px 10px;
+}
+
+#container{
+    display: flex;
+    justify-content: center;
+}
+
+/* Formatação footer */
+footer p{
+    margin-top: 30vh;
+    text-align: center;
+}

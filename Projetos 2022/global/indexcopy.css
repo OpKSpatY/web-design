@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500&family=Roboto&display=swap');
+
+/* Formatações Gerais */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    min-width: 300px;
+    padding: 50px;
+}
+
+#desktop-logo{
+    display: none;
+}
+
+/* Formatação Header */
+#main-header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+
+#main-header hr {
+    width: 35%;
+  }
+
+#main-header img{
+    margin-bottom: -10px;
+}
+
+/* Formtação main-div */
+
+.main-div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#global-acess{
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: normal;
+}
+
+#main-logo{
+    padding: 40px 0px;
+}
+
+    /* Formulário */
+
+    .login, .senha{
+        display: flex;
+        align-items: center;
+        border-radius: 10px;
+        padding: 5px 40px;
+        margin: 15px;
+        background-color: #F4F4F4;
+    }
+
+    .login img, .senha img{
+        margin-right: 20px;
+        margin-left: -20px;
+    }
+
+    input{
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 16px;
+        border: none;
+        padding: 10px 0px;
+        outline: 0;
+        background-color: #F4F4F4;
+    }
+
+    button{
+        cursor: pointer;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 16px;
+        border: none;
+        padding: 15px 30px;
+        margin-top: 10px;
+        margin-bottom: 200px;
+        border-radius: 10px;
+        background-color: #3167B8;
+        color: white;
+    }
+
+.buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  
+}
+
+/* Footer */
+
+footer hr{
+    margin: 0 auto;
+    width: 88%;
+}
+
